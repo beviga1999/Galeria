@@ -5,6 +5,11 @@ session_start();
 require_once 'vendor/autoload.php';
 $loader = new Twig_Loader_Filesystem('Templates');
 $twig = new Twig_Environment($loader);
+if (isset($_POST['user'])) {
+
+    echo $twig->render('login.html', ['error' => 0] );
+
+} else{
 
 $user = $_POST["user"];
 $passwd = $_POST["pass"];
@@ -42,5 +47,5 @@ if ($row && password_verify($passwd, $row[0])){
     echo $twig->render('login.html', ['error' => 1] );
 
    //echo $twig->render('login.html');
-}
+}}
 ?>
