@@ -8,7 +8,7 @@ $twig = new Twig_Environment($loader);
 $error = 0;
 if (isset($_SESSION['user'])) {
     
-    echo $twig->render('index.html');
+    echo $twig->render('login.html');
 } else{    
     echo $twig->render('login.html', ['error' => $error] );
 }

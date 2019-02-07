@@ -1,4 +1,9 @@
 <?php
+session_start();
+
+require_once 'vendor/autoload.php';
+$loader = new Twig_Loader_Filesystem('templates');
+$twig = new Twig_Environment($loader);
 //read from the formulary (login.html)
 //user / password
 $newuser = $_POST["new_user"];
@@ -24,5 +29,5 @@ $hash = password_hash($newpasswd, PASSWORD_DEFAULT);
 $query = "INSERT INTO usuarios (user, pass) VALUES ('$newuser', '$hash');";
 
 $result = mysqli_query($conn, $query);
-header("Location: ../login.html");
+echo $twig->render("new_user.html");
 
