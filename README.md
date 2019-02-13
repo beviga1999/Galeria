@@ -1,11 +1,12 @@
 # Galeria
-<!--{h1:.massive-header.-with-tagline}-->
+
 
 > Creadores: Beñat, Ivan y Carlos
 
 ## Índice
 
-* [Resumen](#resumen)
+* [Idea](#idea)
+* [Realidad](#realidad)
 * [Preparación](#preparación)
 * [Recursos](#recursos)
 * [Directorios](#directorios)
@@ -14,24 +15,30 @@
 * [DATO MUY IMPORTANTE](#DATO-MUY-IMPORTANTE)
 
 
-## Resumen
-
+## Idea
+-------
 Hemos creado una pagina la cual se basa en la edicion e insercion de imagen, aunque al final nos separasemos un poco del tema principal, algo conseguimos sacar. Aqui solo encontraras en funcionamiento el login. 
 
-------
+
+
+
+## Realidad
+-------
+No ha funcionado nada, el login solo sirve con el usuario aiuda. Gracias por todo amen. 
+
 
 
 
 ## Preparación
-
+-------
 - Apache2
 - SQL WORKBENCH
 - PhpMyAdmin
 - PHP 7.2
------
+
 
 ## Recursos 
-
+-------
 Hemos usado:
 
 - Composer
@@ -41,7 +48,7 @@ Hemos usado:
 - Twig
 - Una plantilla HTML (Tanto de Login como de Pagina principal)
 - Image/invertion
------
+
 
 
 Directorios
@@ -52,7 +59,7 @@ Directorios
 - `img/`. Directorio de las imagenes del Login en este caso.
 - `templates/`. Directorio dónde guardamos los `html` de nuestra web.
 - `css/`. Directorio de los css implementados en las plantillas html.
------
+
 
 
 Archivos importantes
@@ -60,7 +67,7 @@ Archivos importantes
 
 - [login.php](php/login.php) valida el login y lleva al [login.html](templates/login.html).
 - [new_user.php](php/new_user.php) el archivo para validar o no validar nuevos usuarios insertados en la base de datos.
------
+
 
 
 Recursos a descargar del composer
@@ -68,7 +75,7 @@ Recursos a descargar del composer
 - Twig
 - Invertion/Image (no utilizada)
 Si no dentro del archivo composer.json encontraras lo necesario.
------
+
 
 
 DATO MUY IMPORTANTE
