@@ -10,6 +10,9 @@
 * [Recursos](#recursos)
 * [Directorios](#directorios)
 * [Archivos importantes](#Archivos-importantes)
+* [Recursos a descargar del composer](#Recursos-a-descargar-del-composer)
+* [DATO MUY IMPORTANTE](#DATO-MUY-IMPORTANTE)
+
 
 ## Resumen
 
@@ -40,17 +43,6 @@ Hemos usado:
 - Image/invertion
 -----
 
-## Recursos 
-
-Hemos usado:
-
-- Composer
-- CSS
-- HTML
-- JS
-- Twig
-- Una plantilla HTML modificada después por nosotros
------
 
 Directorios
 -------
