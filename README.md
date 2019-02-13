@@ -1,7 +1,7 @@
 # Galeria
 
 
-> Creadores: Beñat, Ivan y Carlos
+ Creadores: Beñat, Ivan y Carlos
 
 ## Índice
 
@@ -92,8 +92,8 @@ Copyright
 
 
 
-> Beñat &nbsp;&middot;&nbsp;
-> Ivan &nbsp;&middot;&nbsp;
-> Carlos &nbsp;&middot;&nbsp;
+ Beñat &nbsp;&middot;&nbsp;
+ Ivan &nbsp;&middot;&nbsp;
+ Carlos &nbsp;&middot;&nbsp;
 
 
