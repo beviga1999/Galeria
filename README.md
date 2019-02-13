@@ -55,7 +55,6 @@ Directorios
 -------
 
 - `js/`. Directorio de los javascripts.
-- `php/`. Directorio dónde están guardados todos los `php` 
 - `img/`. Directorio de las imagenes del Login en este caso.
 - `templates/`. Directorio dónde guardamos los `html` de nuestra web.
 - `css/`. Directorio de los css implementados en las plantillas html.
@@ -65,8 +64,8 @@ Directorios
 Archivos importantes
 -------
 
-- [login.php](php/login.php) valida el login y lleva al [login.html](templates/login.html).
-- [new_user.php](php/new_user.php) el archivo para validar o no validar nuevos usuarios insertados en la base de datos.
+- [login.php](login.php) valida el login y lleva al [login.html](templates/login.html).
+- [new_user.php](new_user.php) el archivo para validar o no validar nuevos usuarios insertados en la base de datos.
 
 
 
