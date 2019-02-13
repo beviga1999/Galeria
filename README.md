@@ -16,7 +16,7 @@
 
 ## Resumen
 
-Hemos creado una pagina la cual se basa en la edicion e insercion de imagen, aunque al final nos separasemos un poco del tema principal, algo conseguimos sacar.
+Hemos creado una pagina la cual se basa en la edicion e insercion de imagen, aunque al final nos separasemos un poco del tema principal, algo conseguimos sacar. Aqui solo encontraras en funcionamiento el login. 
 
 ------
 
